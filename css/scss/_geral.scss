@@ -1,0 +1,22 @@
+// GERAL
+body {
+  background: $bege-claro;
+  border: 10px solid $bege-medio;
+  color: $cinza;
+}
+
+// FUNCIONAMENTO
+[data-semana]::after {
+  display: inline-block;
+  content: '';
+  width: 10px;
+  height: 10px;
+  background: #E54;
+  border-radius: 50%;
+  margin-left: 10px;
+  border: 2px solid #000;
+}
+
+[data-semana].aberto::after {
+  background: #3F4;
+}
