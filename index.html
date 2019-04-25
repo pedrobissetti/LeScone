@@ -5,9 +5,89 @@
 	<meta charset="UTF-8">
 	<meta name="description" content="Le Scone - Restaurante">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa|PT+Mono" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	
+	<main class="container intro">
+		<div class="grid-5">
+			<img class="logo" src="img/lescone.png" alt="Le Scone">
+			<div class="intro-info">
+				<p data-semana="1,2,3,4,5,6" data-horario="07,18">De Seg. à Sáb. <br>das 07h00 às 18h00</p>
+				<p>Rua da Liberdade, 303<br>São Paulo - SP</p>
+			</div>
+			<p class="intro-telefone">+55 011 3445-2330</p>
+		</div>
+		<div class="grid-7">
+			<img src="img/foto.jpg" alt="Le Scone Imagem">
+		</div>		
+	</main>
+
+	<section class="container menu">
+		<h1 class="grid-4 titulo">Menu</h1>
+		<div class="grid-7 offset-1">
+			<div class="menu-item">
+				<img src="img/prato-1.png" alt="Entrada">
+				<h2>Entradas</h2>
+				<ul>
+					<li><span>R$ 2,50</span>Ovos Mexidos</li>
+					<li><span>R$ 5,00</span>Scones de Frutas</li>
+					<li><span>R$ 7,50</span>Escargots</li>
+					<li><span>R$ 8,00</span>Scone de Queijo</li>
+					<li><span>R$ 10,00</span>Melanzane alla parmigiana</li>
+				</ul>
+			</div>
+
+			<div class="menu-item">
+				<img src="img/prato-2.png" alt="Prato Principal">
+				<h2>Pratos Principais</h2>
+				<ul>
+					<li><span>R$ 12,50</span>Penne rigate</li>
+					<li><span>R$ 24,50</span>Tonno e gamberi</li>
+					<li><span>R$ 32,00</span>Hambúrguer de Porco</li>
+					<li><span>R$ 45,00</span>Filetto a parmigiana</li>
+					<li><span>R$ 60,00</span>Carré de Cordeiro<li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section class="container contato">
+		<h1 class="grid-4 titulo">Contato</h1>
+		<div class="grid-7 offset-1">
+			<form>
+				<label>Nome</label>
+				<input type="text">
+				<div class="row">
+					<div class="grid-7">
+						<label>E-mail</label>
+						<input type="text">
+					</div>
+					<div class="grid-5">
+						<label>Telefone</label>
+						<input type="text">
+					</div>
+				</div>
+				<label>Mensagem</label>
+				<textarea></textarea>
+				<input class="button" type="button" value="Enviar">
+			</form>
+			<div class="contato-info">
+				<p>contato@lescone.com ////</p>
+				<p>+55 011 3445-2330 ////</p>
+			</div>
+			<a href="#" class="contato-map">
+				<img src="img/map.png" alt="Endereço Le Scone">
+			</a>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<p>Le Scone © 1989 - 2016. Alguns direitos reservados</p>
+			<img src="img/lescone-icone.png" alt="Le Scone Icone">
+		</div>
+	</footer>
+
 </body>
 </html>
